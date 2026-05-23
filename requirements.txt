@@ -1,0 +1,6 @@
+python3-dev libpcap-dev iptables 
+net-tools build-essential
+wget -O data/KDDTrain+.csv \
+https://raw.githubusercontent.com/defcom17/NSL_KDD/master/KDDTrain+.txt
+wget -O data/KDDTest+.csv \
+https://raw.githubusercontent.com/defcom17/NSL_KDD/master/KDDTest+.txt

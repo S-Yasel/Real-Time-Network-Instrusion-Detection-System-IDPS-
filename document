@@ -1,0 +1,19 @@
+ml-idps/
+├── idps_main.py # Main orchestrator
+├── packet_capture.py # Scapy-based packet capture
+├── feature_extractor.py # Flow reconstruction & feature computation
+├── classifier_engine.py # ML model inference engine
+├── alert_engine.py # Alert generation & iptables prevention
+├── train_model.py # NSL-KDD training & evaluation pipeline
+├── evaluate_model.py # Metrics, plots, confusion matrix
+├── requirements.txt # Python dependencies
+├── data/
+│ ├── KDDTrain+.csv # NSL-KDD training set (125,973 records)
+│ └── KDDTest+.csv # NSL-KDD test set (22,544 records)
+├── models/
+│ └── rf_nslkdd.pkl # Serialized model + scaler artifact
+├── outputs/
+│ ├── confusion_matrix.png
+│ └── feature_importance.png
+└── samples/
+└── test_traffic.pcap # Sample PCAP for offline testing

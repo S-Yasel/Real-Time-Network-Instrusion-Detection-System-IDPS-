@@ -1,5 +1,5 @@
  Step 1: Clone or download the project
-git clone https://github.com/S-Yasel/ml-idps.git
+git clone https://github.com/S-Yasel/Real-Time-Network-Instrusion-Detection-System-IDPS
 cd ml-idps
 # Step 2: Create Python virtual environment
 python3 -m venv venv
